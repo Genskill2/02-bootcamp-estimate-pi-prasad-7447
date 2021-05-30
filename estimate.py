@@ -2,6 +2,8 @@ import math
 import unittest
 
 class TestWallis(unittest.TestCase):
+    def wallis(n):
+        def monte_carlo(n):
     def test_low_iters(self):
         for i in range(0, 5):
             pi = wallis(i)
